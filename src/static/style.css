@@ -16,12 +16,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     .repos {
-        width: 90%;
+        width: 100%;
     }
+   
 }
 
+@media screen and (max-width: 500px) {
+    .card-body {
+        
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 .card-body {
     justify-content: start;
     align-items: flex-start;
