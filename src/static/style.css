@@ -1,0 +1,36 @@
+.container  {
+    width: 80%;
+}
+.card-body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.repos {
+    width: 45%;
+}
+
+@media screen and (max-width: 800px) {
+    .card-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .repos {
+        width: 90%;
+    }
+}
+
+.card-body {
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.input-lg  {
+    height: 3rem;
+}
+.btn-lg {
+    height: 3rem;
+    min-height: 0;
+}
